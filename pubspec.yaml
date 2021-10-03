@@ -1,0 +1,21 @@
+name: future_state_notifier
+description: A simple command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.14.2 <3.0.0'
+
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.18.2
+
+dependencies: 
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^1.0.0-dev.7
+  mockito: ^5.0.16
+  sync_once: ^1.0.2
+  synchronized: ^3.0.0
